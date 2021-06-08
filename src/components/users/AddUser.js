@@ -5,6 +5,7 @@ import ErrorModal from "../UI/ErrorModal";
 import classes from "./AddUser.module.css";
 
 ///ref shorter than state (if only reading the value)
+//uncontrolled state (state managed internally without control)
 
 const AddUser = (props) => {
   const nameInputRef = useRef();
